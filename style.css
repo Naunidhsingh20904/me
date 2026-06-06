@@ -2,38 +2,25 @@ body {
   font-family: system-ui, sans-serif;
   margin: 0;
   padding: 2rem;
-  background: #faf8f5;
+  background: white;
+  color: black;
 }
 
-h1 { text-align: center; }
+a{
+  color: navy;
+}
 
-/* The "add note" button */
-#add-note {
+.title h1{
   display: block;
-  margin: 0 auto 2rem;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
-  cursor: pointer;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Your JS will insert notes into this container */
-#notes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-}
-
-/* A single note — your JS will create elements with this class */
-.note {
-  width: 200px;
-  min-height: 200px;
-  padding: 1rem;
-  background: #fff8b8;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  resize: none;
-  font-family: inherit;
-  font-size: 0.95rem;
+.btn {
+  background-color: rgb(223, 223, 237);
+  border: 2px solid grey;
+  border-radius: 30px;
+  padding: 5px;
+  color: black;
 }
